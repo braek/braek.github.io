@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: How to control Lego Power Functions with Raspberry Pi
 ---
 
