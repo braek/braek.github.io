@@ -1,3 +1,1 @@
-# Braek
-
-Personal website of Kristof Verbraeken
+Hello, world!
