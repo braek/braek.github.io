@@ -1,4 +1,4 @@
-title:
+title: Kristof Verbraeken
 description: Full Stack Software Engineer
 theme: jekyll-theme-cayman
 google_analytics: UA-107833896-1
@@ -6,6 +6,5 @@ paginate: 1
 url: http://www.braek.be
 encoding: UTF-8
 lang: en
-author: Kristof Verbraeken
 plugins:
   - jekyll-sitemap
