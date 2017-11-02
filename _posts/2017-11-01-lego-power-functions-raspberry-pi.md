@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: How to control Lego Power Functions with Raspberry Pi
 ---
 
