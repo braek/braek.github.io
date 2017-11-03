@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-First, make sure that **vim** is installed:
+First, make sure that **vim** is installed (or your text editor of choice):
 
 ```
 sudo vim
@@ -131,19 +131,34 @@ When you now open a browser, you should be able to see the interface on http://l
 
 ## Install LIRC
 
+First, install LIRC with this command:
+
 ```
 sudo apt-get install lirc
+```
+
+Next, open the **/etc/modules** file:
+
+```
 sudo vim /etc/modules
 ```
+
+And add the following lines:
 
 ```
 lirc_dev
 lirc_rpi
 ```
 
+*There are lots of tutorials and blog posts say that you need to add the output pins here, but that is not necessary.*
+
+Open the **/etc/lirc/hardware.conf** file:
+
 ```
 sudo vim /etc/lirc/hardware.conf
 ```
+
+Make sure that it contains the following key-value pairs:
 
 ```
 LIRCD_ARGS="--uinput"
@@ -152,16 +167,30 @@ DEVICE="/dev/lirc0"
 MODULES="lirc_rpi"
 ```
 
+Next, open the **/boot/config.txt** file:
+
 ```
 sudo vim /boot/config.txt
 ```
+
+Uncomment the following line:
+
+```
+#dtoverlay=lirc-rpi
+```
+
+And change it into:
 
 ```
 dtoverlay=lirc-rpi:gpio_out_pin=22
 ```
 
+*Note that the GPIO output pin is configured here instead of the **/etc/modules** file.*
+
+
+
 ```
-/etc/lirc/lircd.conf
+sudo vim /etc/lirc/lircd.conf
 ```
 
 ```
