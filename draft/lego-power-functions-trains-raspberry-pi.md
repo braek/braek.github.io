@@ -219,7 +219,7 @@ Right before this line:
 exit 0
 ```
 
-Make sure that the line with the **exit** statement is the last line of this file!
+Make sure that the line with the **exit** statement is still the last line of this file.
 
 Now, reboot the Raspberry Pi:
 
