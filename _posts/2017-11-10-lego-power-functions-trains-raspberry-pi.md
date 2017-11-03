@@ -3,8 +3,6 @@ layout: post
 title: Control LEGO Power Functions trains with Raspberry Pi
 ---
 
-# Control LEGO Power Functions trains with Raspberry Pi
-
 ## Introduction
 
 @todo
