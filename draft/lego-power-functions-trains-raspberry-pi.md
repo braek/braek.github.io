@@ -150,7 +150,7 @@ lirc_dev
 lirc_rpi
 ```
 
-*There are lots of tutorials and blog posts say that you need to add the output pins here, but that is not necessary.*
+*Lots of tutorials and blog posts say that you need to configure the output pin here, but that is actually not necessary.*
 
 Open the **/etc/lirc/hardware.conf** file:
 
