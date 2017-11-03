@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-First, make sure that **vim** is installed (or your text editor of choice):
+First, make sure that **vim** is installed (or your favourite text editor of choice):
 
 ```
 sudo vim
