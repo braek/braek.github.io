@@ -185,25 +185,43 @@ And change it into:
 dtoverlay=lirc-rpi:gpio_out_pin=22
 ```
 
-*Note that the GPIO output pin is configured here instead of the **/etc/modules** file.*
+*Note that the GPIO output pin is configured here instead of in the **/etc/modules** file.*
 
-
+Now, open the **sudo vim /etc/lirc/lircd.conf** file:
 
 ```
 sudo vim /etc/lirc/lircd.conf
 ```
 
+To add the LEGO IR Remote here:
+
 ```
 include "/var/www/html/legoirblaster/lirc/LEGO_Single_Output.conf"
 ```
+
+We are almost there, but there is still one problem that we haven't encountered yet. You need to start the LIRC device **/dev/lirc0** every time manually when the Raspberri Pi boots.
+
+We can fix this however by opening the **/etc/rc.local** file:
 
 ```
 sudo vim /etc/rc.local
 ```
 
+And adding this line:
+
 ```
 sudo lircd -d /dev/lirc0
 ```
+
+Right before this line:
+
+```
+exit 0
+```
+
+Make sure that the line with the **exit** statement is the last line of this file!
+
+Now, reboot the Raspberry Pi:
 
 ```
 sudo reboot
