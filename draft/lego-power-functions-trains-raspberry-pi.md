@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-First make sure that **vim** is installed:
+First, make sure that **vim** is installed:
 
 ```
 sudo vim
@@ -84,19 +84,13 @@ You can deactivate the virtual environment now:
 deactivate
 ```
 
-## Deploy Flask project to Apache
-
-@todo
-
-
-
-# TL;DR
-
-## Apache + Python
+Create a new Apache site configuration:
 
 ```
 sudo vim /etc/apache2/sites-available/legoirblaster.conf
 ```
+
+And paste the following content in that file:
 
 ```
 <VirtualHost *:80>
@@ -111,13 +105,29 @@ sudo vim /etc/apache2/sites-available/legoirblaster.conf
 </VirtualHost>
 ```
 
+Disable the default Apache site:
+
 ```
 sudo a2dissite 000-default
+```
+
+Enable the new Apache site:
+
+```
 sudo a2ensite legoirblaster
+```
+
+And restart Apache:
+
+```
 sudo service apache2 restart
 ```
 
-# LIRC
+## Deploy Flask project to Apache
+
+@todo
+
+## Install LIRC
 
 ```
 sudo apt-get install lirc
