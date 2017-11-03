@@ -33,7 +33,7 @@ Okay, now we are good to go!
 
 ## Install Apache
 
-Apache is one of the most popular web servers in the world. We will install Apache on the Raspberry Pi and deploy to Flask project to it.
+Apache is one of the most popular web servers in the world. We will install Apache on the Raspberry Pi and deploy the Flask project to it.
 
 Install Apache with the following command:
 
