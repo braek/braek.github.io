@@ -1,9 +1,9 @@
 ---
 layout: post
-title: How to control LEGO Power Functions trains with Raspberry Pi
+title: Control LEGO Power Functions trains with Raspberry Pi
 ---
 
-# How to control LEGO Power Functions trains with Raspberry Pi
+# Control LEGO Power Functions trains with Raspberry Pi
 
 ## Introduction
 
