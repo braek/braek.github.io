@@ -31,7 +31,7 @@ sudo apt-get install virtualenv
 
 Okay, now we are good to go!
 
-## Install Apache
+## Install Apache and deploy Flask project
 
 Apache is one of the most popular web servers in the world. We will install Apache on the Raspberry Pi and deploy the Flask project to it.
 
@@ -129,10 +129,6 @@ sudo service apache2 restart
 ```
 
 When you now open a browser, you should be able to see the interface on http://localhost/.
-
-## Deploy Flask project to Apache
-
-@todo
 
 ## Install LIRC
 
