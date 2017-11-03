@@ -2,7 +2,7 @@
 
 ## Introduction
 
-@TODO
+@todo
 
 ## Prerequisites
 
@@ -12,15 +12,81 @@ First make sure that **vim** is installed:
 sudo vim
 ```
 
-Next make sure that **package information** is up-to-date:
+Next, make sure that **package information** is up-to-date:
 
 ```
 sudo apt-get update
 ```
 
+And finally, make sure that **virtualenv** is installed, so that we can create Python virtual environments.
+
+```
+sudo apt-get install virtualenv
+```
+
+Okay, now we are good to go!
+
 ## Install Apache
 
+Apache is one of the most popular web servers in the world. We will install Apache on the Raspberry Pi and deploy to Flask project to it.
+
+Install Apache with the following command:
+
+```
+sudo apt-get install apache2 libapache2-mod-wsgi-py3
+```
+
+After that, move to the public HTML directory of Apache:
+
+```
+cd /var/www/html
+```
+
+Clone the Flask project inside this directory using the following command:
+
+```
+sudo git clone https://github.com/braek/legoirblaster.git
+```
+
+Make sure that the user **pi** and group **pi** are owners of that directory and its content:
+
+```
+sudo chown pi:pi legoirblaster
+```
+
+Move inside the project directory:
+
+```
+cd legoirblaster
+```
+
+Now, create a Python virtual environment using Python 3 and no site packages:
+
+```
+virtualenv -p python3 --no-site-packages venv
+```
+
+Activate the newly created virtual environment:
+
+```
+source venv/bin/activate
+```
+
+Now, install all the Python dependencies from the **requirements.txt** file:
+
+```
+pip install -r requirements.txt
+```
+
+You can deactivate the virtual environment now:
+
+```
+deactivate
+```
+
 ## Deploy Flask project to Apache
+
+@todo
 
 
 
@@ -29,16 +95,6 @@ sudo apt-get update
 ## Apache + Python
 
 ```
-sudo apt-get install apache2 libapache2-mod-wsgi-py3
-cd /var/www/html
-sudo git clone https://github.com/braek/legoirblaster.git
-sudo chown pi:pi legoirblaster
-cd legoirblaster
-sudo apt-get install virtualenv
-virtualenv -p python3 --no-site-packages venv
-source venv/bin/activate
-pip install -r requirements.txt
-deactivate
 sudo vim /etc/apache2/sites-available/legoirblaster.conf
 ```
 
