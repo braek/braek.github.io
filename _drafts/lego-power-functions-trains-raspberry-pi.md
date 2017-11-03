@@ -47,7 +47,7 @@ After that, move to the public HTML directory of Apache:
 cd /var/www/html
 ```
 
-Clone the Flask project inside this directory using the following command:
+Clone the Flask project (or your own fork) inside this directory using the following command:
 
 ```
 sudo git clone https://github.com/braek/legoirblaster.git
