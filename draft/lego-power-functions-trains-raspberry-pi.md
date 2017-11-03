@@ -123,7 +123,7 @@ And restart Apache:
 sudo service apache2 restart
 ```
 
-When you now open a browser, you should be able to see the interface on **http://localhost/.**
+When you now open a browser, you should be able to see the interface on http://localhost/.
 
 ## Deploy Flask project to Apache
 
