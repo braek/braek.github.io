@@ -3,7 +3,7 @@ layout: post
 title: Hello, world!
 ---
 
-This is the first post of my newly created **blog.** This blog serves as a platform to showcase the **cool stuff* I&rsquo;m working on.
+This is the first post of my newly created **blog.** This blog serves as a platform to showcase the **cool stuff** I&rsquo;m working on.
 
 ## Lazy Sunday, Lego Sunday
 
