@@ -305,3 +305,7 @@ Now, reboot the Raspberry Pi:
 ```
 pi@raspberrypi:~ $ sudo reboot
 ```
+
+After reboot, open a browser and surf again to **http://localhost/** to see this screen:
+
+![LEGO IR Blaster with LIRC](/images/lego_ir_blaster_lirc_ok.png)
