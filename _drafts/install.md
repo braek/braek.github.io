@@ -3,17 +3,21 @@ layout: post
 title: How to control LEGO Power Functions trains with Raspberry Pi
 ---
 
-## Don't grow up, it's a trap!
+## 1. Don't grow up, it's a trap!
 
 TODO: write introduction about LEGO trains and childhood
 
-## Terminal
+## 2. IR blaster hardware
+
+TODO: hardware schema
+
+## 3. Terminal
 
 Time to open up a terminal in Raspbian and follow the steps below!
 
 ![Raspbian Terminal](/images/raspberry-pi-terminal.png)
 
-## Prerequisites
+## 4. Prerequisites
 
 ### Check Raspbian version
 
@@ -69,7 +73,7 @@ pi@raspberrypi:~ $ sudo apt-get install virtualenv
 
 Okay, now we are good to go!
 
-## Install Apache and deploy Flask project
+## 5. Install Apache and deploy Flask project
 
 First, we need to install Apache, one of the most popular web servers in the world, together with the **mod_wsgi** module to be able to deploy the Flask project to Apache through WSGI.
 
@@ -219,7 +223,7 @@ When you refresh the page on **http://localhost/** you should now see something 
 
 You see a red message saying **"LIRC is not installed or FUBAR"** which is perfectly normal at this stage, because LIRC is not yet installed and configured.
 
-## LIRC
+## 6. LIRC
 
 First, install LIRC with this command:
 
