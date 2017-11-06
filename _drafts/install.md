@@ -1,3 +1,8 @@
+---
+layout: post
+title: How to control LEGO Power Functions trains with Raspberry Pi
+---
+
 ## Don't grow up, it's a trap!
 
 ![Raspbian Terminal](/images/raspberry-pi-terminal.png)
