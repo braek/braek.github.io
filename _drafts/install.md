@@ -3,15 +3,15 @@ layout: post
 title: How to control LEGO Power Functions trains with Raspberry Pi
 ---
 
-## 1. Don't grow up, it's a trap!
+## Don't grow up, it's a trap!
 
 TODO: write introduction about LEGO trains and childhood
 
-## 2. IR blaster hardware
+## IR blaster hardware
 
 TODO: hardware schema
 
-## 3. Prerequisites
+## Prerequisites
 
 ### Terminal
 
@@ -73,7 +73,7 @@ pi@raspberrypi:~ $ sudo apt-get install virtualenv
 
 Okay, now we are good to go!
 
-## 4. Install Apache and deploy Flask project
+## Install Apache and deploy Flask project
 
 First, we need to install Apache, one of the most popular web servers in the world, together with the **mod_wsgi** module to be able to deploy the Flask project to Apache through WSGI.
 
@@ -223,7 +223,7 @@ When you refresh the page on **http://localhost/** you should now see something 
 
 You see a red message saying **"LIRC is not installed or FUBAR"** which is perfectly normal at this stage, because LIRC is not yet installed and configured.
 
-## 5. LIRC
+## LIRC
 
 First, install LIRC with this command:
 
@@ -329,7 +329,9 @@ As you can see: there is no longer a red message, because LIRC is now installed 
 
 If your IR blaster (hardware) is properly built and connected on the Raspberry Pi, you should now be able to control LEGO Power Functions through this web interface!
 
-## Video
+## Final words
+
+TODO: write final words
 
 This video demonstrates how the LEGO IR Blaster works.
 
