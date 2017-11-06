@@ -211,7 +211,7 @@ When you refresh the page on **http://localhost/** you should now see something 
 
 ![LEGO IR Blaster without LIRC](/images/lego_ir_blaster_lirc_fubar.png)
 
-You see a red message saying **LIRC is not installed or FUBAR** which is perfectly normal at this stage, because LIRC is not yet configured.
+You see a red message saying **"LIRC is not installed or FUBAR"** which is perfectly normal at this stage, because LIRC is not yet installed and configured.
 
 ## LIRC
 
@@ -314,3 +314,5 @@ pi@raspberrypi:~ $ sudo reboot
 After reboot, open a browser and surf again to **http://localhost/** to see this screen:
 
 ![LEGO IR Blaster with LIRC](/images/lego_ir_blaster_lirc_ok.png)
+
+Now you should be able to control LEGO Power Functions through this web interface!
