@@ -31,7 +31,7 @@ Time to open up a terminal in Raspbian and follow the steps below!
 
 ### Check Raspbian version
 
-First, make sure that you are using the correct version of Raspbian: for this tutorial I'm using **Raspbian Jessie.** I don't garantuee that the same stuff will work on lower or higher versions of Raspbian.
+First, make sure that you are using the correct version of Raspbian: for this tutorial I'm using **Raspbian Jessie.** I don't guarantee that the same stuff will work on lower or higher versions of Raspbian.
 
 You can check the Raspbian version with this command:
 
