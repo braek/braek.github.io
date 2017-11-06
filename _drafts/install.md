@@ -9,6 +9,15 @@ TODO: write introduction about LEGO trains and childhood
 
 ## IR blaster hardware
 
+To build an IR blaster, you need the following components:
+
+* wires
+* breadboard
+* IR led
+* BC547B transistor
+* 10 kΩ resistor
+* 100 Ω resistor
+
 TODO: hardware schema
 
 ## Prerequisites
