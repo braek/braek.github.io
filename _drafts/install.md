@@ -315,4 +315,6 @@ After reboot, open a browser and surf again to **http://localhost/** to see this
 
 ![LEGO IR Blaster with LIRC](/images/lego_ir_blaster_lirc_ok.png)
 
-Now you should be able to control LEGO Power Functions through this web interface!
+As you can see: there is no longer a red message, because LIRC is now installed and configured.
+
+If your IR blaster (hardware) is properly built and connected on the Raspberry Pi, you should now be able to control LEGO Power Functions through this web interface!
