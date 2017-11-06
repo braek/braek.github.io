@@ -9,14 +9,15 @@ TODO: write introduction about LEGO trains and childhood
 
 ## IR blaster hardware
 
-To build an IR blaster, you need the following components:
+To build an IR blaster, you need the following components, besides the Raspberry Pi:
 
-* wires
-* breadboard
-* IR led
-* BC547B transistor
-* 10 kΩ resistor
-* 100 Ω resistor
+* wires;
+* breadboard;
+* IR led;
+* BC547B transistor;
+* 10 kΩ resistor;
+* 100 Ω resistor;
+* multimeter for testing and measurements.
 
 TODO: hardware schema
 
