@@ -11,13 +11,13 @@ TODO: write introduction about LEGO trains and childhood
 
 TODO: hardware schema
 
-## 3. Terminal
+## 3. Prerequisites
+
+### Terminal
 
 Time to open up a terminal in Raspbian and follow the steps below!
 
 ![Raspbian Terminal](/images/raspberry-pi-terminal.png)
-
-## 4. Prerequisites
 
 ### Check Raspbian version
 
@@ -73,7 +73,7 @@ pi@raspberrypi:~ $ sudo apt-get install virtualenv
 
 Okay, now we are good to go!
 
-## 5. Install Apache and deploy Flask project
+## 4. Install Apache and deploy Flask project
 
 First, we need to install Apache, one of the most popular web servers in the world, together with the **mod_wsgi** module to be able to deploy the Flask project to Apache through WSGI.
 
@@ -223,7 +223,7 @@ When you refresh the page on **http://localhost/** you should now see something 
 
 You see a red message saying **"LIRC is not installed or FUBAR"** which is perfectly normal at this stage, because LIRC is not yet installed and configured.
 
-## 6. LIRC
+## 5. LIRC
 
 First, install LIRC with this command:
 
