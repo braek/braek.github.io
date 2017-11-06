@@ -5,6 +5,12 @@ title: How to control LEGO Power Functions trains with Raspberry Pi
 
 ## Don't grow up, it's a trap!
 
+TODO: write introduction about LEGO trains and childhood
+
+## Terminal
+
+Time to open up a terminal in Raspbian and follow the steps below!
+
 ![Raspbian Terminal](/images/raspberry-pi-terminal.png)
 
 ## Prerequisites
@@ -318,3 +324,9 @@ After reboot, open a browser and surf again to **http://localhost/** to see this
 As you can see: there is no longer a red message, because LIRC is now installed and configured.
 
 If your IR blaster (hardware) is properly built and connected on the Raspberry Pi, you should now be able to control LEGO Power Functions through this web interface!
+
+## Video
+
+This video demonstrates how the LEGO IR Blaster works.
+
+TODO: YouTube video
