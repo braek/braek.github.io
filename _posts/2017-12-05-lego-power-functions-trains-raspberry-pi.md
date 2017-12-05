@@ -29,11 +29,11 @@ Below is the hardware schema you need to build. Forgive me for the sketch. ;-)
 
 Photo of the wiring on the breadboard:
 
-![LEGO® IR Blaster breadboard wiring](/images/legoirblaster/legoirblaster/lego_ir_blaster_hardware_breadboard.jpg)
+![LEGO® IR Blaster breadboard wiring](/images/legoirblaster/lego_ir_blaster_hardware_breadboard.jpg)
 
 And a photo of the Raspberry Pi wires:
 
-![LEGO® IR Blaster Raspberry Pi wiring](/images/legoirblaster/legoirblaster/lego_ir_blaster_hardware_raspberry_pi.jpg)
+![LEGO® IR Blaster Raspberry Pi wiring](/images/legoirblaster/lego_ir_blaster_hardware_raspberry_pi.jpg)
 
 That's if for the hardware for now. Let's tweak the software first.
 
