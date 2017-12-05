@@ -11,7 +11,7 @@ The best present my parents ever gave me for **Sinterklaas** probably was a LEGO
 
 More than 25 years have passed since then, but I have to admit that **I'm still quite fascinated by LEGO® trains today!** This fascination drove me to see if I could use everyday technology (Java, Python, JavaScript) to control them.
 
-The result is a project that I call the **LEGO® IR Blaster:** a Python/Flask application that gives you a web interface to control LEGO® Power Functions (trains). The web interface gives you the same control possibilities as the **LEGO® Power Functions IR Speed Remote Control 8879.**
+The result is a project that I call the **LEGO® IR Blaster:** a Python/Flask application for Raspberry Pi that gives you a web interface to control LEGO® Power Functions (trains). The web interface gives you the same control possibilities as the **LEGO® Power Functions IR Speed Remote Control 8879.**
 
 You can find this **open source project** on [GitHub](https://github.com/braek/legoirblaster).
 
