@@ -19,6 +19,12 @@ You can find this **open source project** on [GitHub](https://github.com/braek/l
 
 In this article I will explain how to build the **IR blaster hardware** and deploy the Flask application to Apache on Raspberry Pi.
 
+## Video
+
+This YouTube video demonstrates the **LEGO® IR Blaster** in action.
+
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/MxAEXKPW3xQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 ## IR blaster hardware
 
 To build an IR blaster, you need the following components, besides the Raspberry Pi:
@@ -368,7 +374,3 @@ If your IR blaster (hardware) is properly built and connected on the Raspberry P
 ## Final words
 
 In the future I will explore some more 3rd party solutions to control LEGO® trains (with more possibilities), but this was nonetheless a fun **DIY** project! :-)
-
-This YouTube video demonstrates the **LEGO® IR Blaster** in action.
-
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/MxAEXKPW3xQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
