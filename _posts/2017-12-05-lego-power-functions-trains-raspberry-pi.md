@@ -19,6 +19,8 @@ To build an IR blaster, you need the following components, besides the Raspberry
 * 100 Ω resistor;
 * multimeter for testing and measurements.
 
+I'm using a **Raspberry Pi 2 Model B** myself, but other models might also work for this project.
+
 Below is the hardware schema you need to build. Forgive me for the sketch. ;-)
 
 ![LEGO® IR Blaster Hardware Schema](/images/lego_ir_blaster_hardware_schema.jpg)
