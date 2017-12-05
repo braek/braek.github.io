@@ -28,6 +28,6 @@ class YourTestCase(TestCase):
         show_sql()
 ```
 
-Make sure that the **DEBUG** property is set to **True** with the **override_settings** decorator. In the example above, the decorator is only used on a single unit test, but you can also use the decorator for the complete test case.
+Make sure that the **DEBUG** setting is set to **True** with the **override_settings** decorator. In the example above, the decorator is only used on a single unit test, but you can also use the decorator on a complete test case.
 
 Happy unit testing!
