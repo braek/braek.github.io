@@ -7,6 +7,8 @@ title: How to control LEGO® Power Functions trains with Raspberry Pi
 
 The best present my parents ever gave me for **Sinterklaas** probably was a LEGO® train. I can't count the hours I've played with the 9V train set they gave me back then. :-)
 
+More than 25 years have passed since then, but I have to admit that I'm still fascinated by LEGO® trains today. This fascination drove me to check out the trains that LEGO® has made in the past 10 years and what immediately struck me was the fact that they are using completely different technology today.
+
 ## IR blaster hardware
 
 To build an IR blaster, you need the following components, besides the Raspberry Pi:
