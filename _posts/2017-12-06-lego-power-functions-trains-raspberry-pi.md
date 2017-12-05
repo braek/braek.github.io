@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to control LEGO® Power Functions trains with Raspberry Pi
-description: How to control LEGO® Power Functions trains with Raspberry Pi
+title: "How to control LEGO® Power Functions trains with Raspberry Pi"
+description: "Transform your Raspberry Pi in a true LEGO® train controller"
 image:
   feature: /images/legoirblaster/lego_4563.jpg
 ---
