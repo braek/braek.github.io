@@ -9,7 +9,13 @@ The best present my parents ever gave me for **Sinterklaas** probably was a LEGO
 
 ![LEGO® 4563](/images/legoirblaster/lego_4563.jpg)
 
-More than 25 years have passed since then, but I have to admit that I'm still quite fascinated by LEGO® trains today. This fascination drove me to see if I could combine everyday technology that I use (Java, Python, etc.) to control LEGO® trains.
+More than 25 years have passed since then, but I have to admit that I'm still quite fascinated by LEGO® trains today! This fascination drove me to see if I could use everyday technology (Java, Python, etc.) to control LEGO® trains.
+
+The result is a project that I call the **LEGO® IR Blaster:** a Python/Flask application that gives you a web interface to control LEGO® Power Functions (trains).
+
+You can find this open source project on [GitHub](https://github.com/braek/legoirblaster).
+
+In this article I will describe how to build the IR blaster hardware and deploy the Flask application to Apache.
 
 ## IR blaster hardware
 
