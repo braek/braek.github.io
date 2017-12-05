@@ -23,15 +23,15 @@ I'm using a **Raspberry Pi 2 Model B** myself, but other models might also work 
 
 Below is the hardware schema you need to build. Forgive me for the sketch. ;-)
 
-![LEGO® IR Blaster Hardware Schema](/images/lego_ir_blaster_hardware_schema.jpg)
+![LEGO® IR Blaster Hardware Schema](/images/legoirblaster/lego_ir_blaster_hardware_schema.jpg)
 
 Photo of the wiring on the breadboard:
 
-![LEGO® IR Blaster breadboard wiring](/images/lego_ir_blaster_hardware_breadboard.jpg)
+![LEGO® IR Blaster breadboard wiring](/images/legoirblaster/legoirblaster/lego_ir_blaster_hardware_breadboard.jpg)
 
 And a photo of the Raspberry Pi wires:
 
-![LEGO® IR Blaster Raspberry Pi wiring](/images/lego_ir_blaster_hardware_raspberry_pi.jpg)
+![LEGO® IR Blaster Raspberry Pi wiring](/images/legoirblaster/legoirblaster/lego_ir_blaster_hardware_raspberry_pi.jpg)
 
 That's if for the hardware for now. Let's tweak the software first.
 
@@ -41,7 +41,7 @@ That's if for the hardware for now. Let's tweak the software first.
 
 Time to open up a terminal in Raspbian and follow the steps below!
 
-![Raspbian Terminal](/images/raspberry-pi-terminal.png)
+![Raspbian Terminal](/images/legoirblaster/raspberry-pi-terminal.png)
 
 ### Check Raspbian version
 
@@ -109,7 +109,7 @@ pi@raspberrypi:~ $ sudo apt-get install apache2 libapache2-mod-wsgi-py3
 
 After the installation, open a browser and surf to **http://localhost/** to see a page like this:
 
-![Apache Default Page](/images/apache-default-page.png)
+![Apache Default Page](/images/legoirblaster/apache-default-page.png)
 
 This is the Apache default web page and only serves as a confirmation that Apache was installed correctly.
 
@@ -243,7 +243,7 @@ pi@raspberrypi:~ $ sudo service apache2 reload
 
 When you refresh the page on **http://localhost/** you should now see something like this:
 
-![LEGO® IR Blaster without LIRC](/images/lego_ir_blaster_lirc_fubar.png)
+![LEGO® IR Blaster without LIRC](/images/legoirblaster/lego_ir_blaster_lirc_fubar.png)
 
 You see a red message saying **"LIRC is not installed or FUBAR"** which is perfectly normal at this stage, because LIRC is not yet installed and configured.
 
@@ -347,7 +347,7 @@ pi@raspberrypi:~ $ sudo reboot
 
 After reboot, open a browser and surf again to **http://localhost/** to see this screen:
 
-![LEGO® IR Blaster with LIRC](/images/lego_ir_blaster_lirc_ok.png)
+![LEGO® IR Blaster with LIRC](/images/legoirblaster/lego_ir_blaster_lirc_ok.png)
 
 As you can see: there is no longer a red message, because LIRC is now installed and configured.
 
