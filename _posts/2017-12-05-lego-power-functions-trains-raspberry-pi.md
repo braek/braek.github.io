@@ -9,7 +9,7 @@ The best present my parents ever gave me for **Sinterklaas** probably was a LEGO
 
 ![LEGO® 4563](/images/legoirblaster/lego_4563.jpg)
 
-More than 25 years have passed since then, but I have to admit that I'm **still quite fascinated by LEGO® trains today!** This fascination drove me to see if I could use everyday technology (Java, Python, JavaScript) to control LEGO® trains.
+More than 25 years have passed since then, but I have to admit that **I'm still quite fascinated by LEGO® trains today!** This fascination drove me to see if I could use everyday technology (Java, Python, JavaScript) to control them.
 
 The result is a project that I call the **LEGO® IR Blaster:** a Python/Flask application that gives you a web interface to control LEGO® Power Functions (trains). The web interface gives you the same control possibilities as the **LEGO® Power Functions IR Speed Remote Control 8879.**
 
