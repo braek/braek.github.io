@@ -1,11 +1,11 @@
 ---
 layout: post
-title: How to control LEGO Power Functions trains with Raspberry Pi
+title: How to control LEGO® Power Functions trains with Raspberry Pi
 ---
 
 ## Don't grow up, it's a trap!
 
-TODO: write introduction about LEGO trains and childhood
+The best present my parents ever gave me for **Sinterklaas** probably was a LEGO® train. I can't count the hours I've played with the 9V train set they gave me back then.
 
 ## IR blaster hardware
 
@@ -229,7 +229,7 @@ pi@raspberrypi:~ $ sudo service apache2 reload
 
 When you refresh the page on **http://localhost/** you should now see something like this:
 
-![LEGO IR Blaster without LIRC](/images/lego_ir_blaster_lirc_fubar.png)
+![LEGO® IR Blaster without LIRC](/images/lego_ir_blaster_lirc_fubar.png)
 
 You see a red message saying **"LIRC is not installed or FUBAR"** which is perfectly normal at this stage, because LIRC is not yet installed and configured.
 
@@ -297,7 +297,7 @@ Now, open the **sudo vim /etc/lirc/lircd.conf** file:
 pi@raspberrypi:~ $ sudo vim /etc/lirc/lircd.conf
 ```
 
-To add the LEGO IR Remote here:
+To add the LEGO® IR Remote here:
 
 ```
 include "/var/www/html/legoirblaster/lirc/LEGO_Single_Output.conf"
@@ -333,7 +333,7 @@ pi@raspberrypi:~ $ sudo reboot
 
 After reboot, open a browser and surf again to **http://localhost/** to see this screen:
 
-![LEGO IR Blaster with LIRC](/images/lego_ir_blaster_lirc_ok.png)
+![LEGO® IR Blaster with LIRC](/images/lego_ir_blaster_lirc_ok.png)
 
 As you can see: there is no longer a red message, because LIRC is now installed and configured.
 
@@ -341,8 +341,6 @@ If your IR blaster (hardware) is properly built and connected on the Raspberry P
 
 ## Final words
 
-TODO: write final words
+This video demonstrates the **LEGO® IR Blaster** in action!
 
-This video demonstrates how the LEGO IR Blaster works.
-
-TODO: YouTube video
+https://www.youtube.com/watch?v=MxAEXKPW3xQ
