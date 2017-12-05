@@ -5,7 +5,7 @@ title: How to show SQL queries in Django unit tests
 
 Recently I wanted to see which SQL queries were executed in some Django unit tests.
 
-In Java and Hibernate this is easily accomplished by setting the **show_sql** setting to **true,** but Django does not offer a setting for this.
+In Java and Hibernate this is easily accomplished by setting the **show_sql** setting to **true,** but Django does not offer a setting like that.
 
 Below is a code example to show the SQL queries in Django unit tests.
 
