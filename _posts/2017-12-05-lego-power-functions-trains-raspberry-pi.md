@@ -345,4 +345,4 @@ In the future I will explore some more 3rd party solutions to control LEGO® tra
 
 This YouTube video demonstrates the **LEGO® IR Blaster** in action.
 
-https://www.youtube.com/watch?v=MxAEXKPW3xQ
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MxAEXKPW3xQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
