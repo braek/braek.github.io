@@ -7,8 +7,6 @@ title: How to control LEGO® Power Functions trains with Raspberry Pi
 
 The best present my parents ever gave me for **Sinterklaas** probably was a LEGO® train. I can't count the hours I've played with the 9V train set they gave me back then. :-)
 
-
-
 ## IR blaster hardware
 
 To build an IR blaster, you need the following components, besides the Raspberry Pi:
@@ -21,7 +19,17 @@ To build an IR blaster, you need the following components, besides the Raspberry
 * 100 Ω resistor;
 * multimeter for testing and measurements.
 
-TODO: hardware schema
+Below is the hardware schema you need to build. Forgive me for the sketch. ;-)
+
+![LEGO® IR Blaster Hardware Schema](/images/lego_ir_blaster_hardware_schema.jpg)
+
+Photo of the wiring on the breadboard:
+
+![LEGO® IR Blaster breadboard wiring](/images/lego_ir_blaster_hardware_breadboard.jpg)
+
+And a photo of the Raspberry Pi wires:
+
+![LEGO® IR Blaster Raspberry Pi wiring](/images/lego_ir_blaster_hardware_raspberry-pi.jpg)
 
 ## Prerequisites
 
