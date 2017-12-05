@@ -29,7 +29,7 @@ Photo of the wiring on the breadboard:
 
 And a photo of the Raspberry Pi wires:
 
-![LEGO® IR Blaster Raspberry Pi wiring](/images/lego_ir_blaster_hardware_raspberry-pi.jpg)
+![LEGO® IR Blaster Raspberry Pi wiring](/images/lego_ir_blaster_hardware_raspberry_pi.jpg)
 
 ## Prerequisites
 
