@@ -357,7 +357,7 @@ If your IR blaster (hardware) is properly built and connected on the Raspberry P
 
 ## Final words
 
-In the future I will explore some more 3rd party solutions to control LEGO® trains (with more possibilities), but this was nonetheless a fun **DIY project!**
+In the future I will explore some more 3rd party solutions to control LEGO® trains (with more possibilities), but this was nonetheless a fun **DIY** project! :-)
 
 This YouTube video demonstrates the **LEGO® IR Blaster** in action.
 
