@@ -31,6 +31,8 @@ And a photo of the Raspberry Pi wires:
 
 ![LEGO® IR Blaster Raspberry Pi wiring](/images/lego_ir_blaster_hardware_raspberry_pi.jpg)
 
+That's if for the hardware for now. Let's tweak the software first.
+
 ## Prerequisites
 
 ### Terminal
