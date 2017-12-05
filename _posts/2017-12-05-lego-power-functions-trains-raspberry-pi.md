@@ -3,7 +3,7 @@ layout: post
 title: How to control LEGO® Power Functions trains with Raspberry Pi
 ---
 
-## Don't grow up, it's a trap!
+## Blast from the Past
 
 The best present my parents ever gave me for **Sinterklaas** probably was a LEGO® train. I can't count the hours I've played with the 9V train set they gave me back then. :-)
 
