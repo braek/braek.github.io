@@ -13,7 +13,6 @@ Below is a code example to show the SQL queries in Django unit tests.
 from django.test import TestCase
 from django.test.utils import override_settings
 from django.db import connection
-from django.conf import settings
 
 
 def show_sql():
