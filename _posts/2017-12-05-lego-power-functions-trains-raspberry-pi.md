@@ -15,7 +15,7 @@ The result is a project that I call the **LEGO® IR Blaster:** a Python/Flask ap
 
 You can find this **open source project** on [GitHub](https://github.com/braek/legoirblaster).
 
-In this article I will explain how to build the **IR blaster hardware** and deploy the Flask application to Apache.
+In this article I will explain how to build the **IR blaster hardware** and deploy the Flask application to Apache on Raspberry Pi.
 
 ## IR blaster hardware
 
