@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Hello, world!
+title: "Hello, world!"
+description: "The very first blog post with a title that is totally not cliché"
 ---
 
 This is the first post of my newly created **blog** which serves as a platform to showcase **some cool stuff** I&rsquo;m working on.
