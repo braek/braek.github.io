@@ -3,7 +3,7 @@ description: Personal website of Kristof Verbraeken
 theme: jekyll-theme-cayman
 google_analytics: UA-107833896-1
 paginate: 666
-url: http://www.braek.be
+url: https://www.koder.be
 encoding: UTF-8
 lang: en
 plugins:
