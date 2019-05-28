@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://www.braek.be/sitemap.xml
+Sitemap: https://www.koder.be/sitemap.xml
