@@ -8,3 +8,4 @@ encoding: UTF-8
 lang: en
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
