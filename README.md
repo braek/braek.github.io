@@ -1,3 +1,3 @@
-# Braek
+# Koder
 
-Personal website of Kristof Verbraeken
+Company website of Koder bv
