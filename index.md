@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
-<p>Homepage</p>
+<p>Welkom op de website van <strong>Koder BV.</strong></p>
