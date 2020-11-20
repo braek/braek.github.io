@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Diensten
 ---
 
 <h2>Software op maat</h2>
