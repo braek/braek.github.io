@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Redirecting...
 ---
 
-<p>Welkom op de website van <strong>Koder BV.</strong></p>
+<!--<p>Welkom op de website van <strong>Koder BV.</strong></p>-->
